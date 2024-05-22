@@ -46,6 +46,8 @@
              * Case 3 loops text that user typed 10 times
              * 
              * Case 4 asks for text of 3 words minimum, and then chooses the third word to type out on screen
+             * 
+             * Default case is activated if input does not match choises in menu
              */
 
             switch (option)
@@ -105,6 +107,9 @@
             Console.ReadLine();
         }
 
+        /*
+         * Calculate price for ticket(s), determined on age.
+         */
         static int Age(int age)
         {
             int cost;
